@@ -1,0 +1,145 @@
+
+/*-----------body-------------*/
+
+body{
+    margin-left:75px;
+    background: linear-gradient(white ,black,white);    
+}
+
+/*------------title (our menu)----------*/
+
+h1{
+    font-size: 100px;
+    color: chocolate;
+    text-align: center;
+    text-decoration:underline;
+    font-family: 'Long Cang', cursive;
+    text-shadow: 5px 2px black;
+}
+
+/* -------------  section   ---------------  */
+
+section{
+    margin: 30px  10px;
+    float: left;
+    background-color: rgb(129, 35, 98);
+}
+
+/* ---------------------BOX N 1 ------------------*/
+
+#Box-1{
+    margin: 60px 10px 10px 10px;
+    font-family:sans-serif ;
+    
+}
+#content-1{
+    border: 1px solid black;
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    color: aliceblue;
+    
+
+}
+#small-Box-1{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(15, 231, 130);
+    float: right;
+    font-family: fantasy;
+    
+}
+
+/* ------------------BOX N 2 ----------------*/
+#Box-2{
+    margin: 60px 0px 10px 10px;
+    font-family:sans-serif ;   
+}
+#content-2{
+    border: 1px solid black;
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+
+#small-Box-2{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: chartreuse;
+    float: right;
+    font-family: fantasy;
+    
+}
+/* -------------   BOX N 3  -----------   */
+
+#Box-3{
+    margin: 60px 0px 10px 10px;
+    font-family:sans-serif ;    
+}
+#content-3{
+    border: 1px solid black;
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+#small-Box-3{
+    border: 1px solid black;
+    border-radius: 10px;
+
+    width: 150px;
+    height: 40px;
+    background-color: rgb(196, 228, 15);
+    float: right;
+    font-family: fantasy;   
+}
+/*----------------------- chiken-beef-sushi ------------------*/
+h2{
+    text-align: center;
+    margin: -6px 0px;
+    color: rgb(172, 27, 27);
+    font-family: 'Long Cang', cursive;
+    font-size: 45px;
+    text-shadow: 3px 2px black;
+
+}
+/*   ----------------     @media query  ----------   */ 
+
+@media (min-width:992px) and (max-width:1050px){
+    body{
+        margin-left: 80px;
+    }
+ 
+    #content-3{
+        width:720px ;
+
+    }
+
+}
+@media (min-width:768px) and (max-width:991px)
+{
+     #content-3{
+        width:720px ;
+    }
+    body{
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width:767px){
+    body{
+        margin-left: 0px;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+
